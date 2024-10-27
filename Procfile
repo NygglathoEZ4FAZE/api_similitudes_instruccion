@@ -1,1 +1,1 @@
-web: gunicorn proyecto_clasificador.wsgi --bind 0.0.0.0:$PORT
+web: gunicorn api_mejor_respuesta.wsgi --bind 0.0.0.0:$PORT
